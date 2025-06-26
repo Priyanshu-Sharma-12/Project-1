@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Shopping</title>
+ <link rel="stylesheet" href="index.css">
+ <link rel="icon" type="image/jpg" href="images/web2.jpg">
+ <title>P_KarT</title>
+</head>
+<html><body 
+
+style="background-color:transparent">
+</body></html>
+
+<body>
+  <h1>Welcome to PcarT</h1>
+
+  <div id="loginForm">
+    <h4>Please login to continue...</h4>
+    <input type="text" id="username" required placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()" title="Enter details before login" >Login</button>
+    <p id="loginStatus"></p>
+  </div>
+<div>
+  <script>
+    function login() {
+      
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+     
+      if (username === "Priyanshu123" && password === "password") {
+       
+        window.location.href = "1main.html";
+      } else {
+        
+        alert("Invalid username or password. Please try again.");
+      }
+    }
+  </script>
+</div>
+  <div class="forgot">
+    <a href="/forgotpassword.html" title="Reset your Password"> Forgot password?</a>
+  </div>
+  
+</body>
+</html>
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wishlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wishlist-item {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.wishlist-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  background-color: #FF0000;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #CC0000;
+}
+.btns {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #26fd67;
+    color: #0f0b0b;
+    text-decoration: none;
+    border-radius: 4px;
+   margin-top: 1rem;
+  }
+
+  </style>
+</head>
+<body>
+  <h1>My Wishlist</h1>
+  
+  <div class="wishlist-container">
+    <div class="wishlist-item">
+      <img src="https://m.media-amazon.com/images/I/61YSNhAb00L._AC_UL640_QL65_.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>$600.99</p>
+      <button class="remove-button">Remove</button>
+      <a href="orderpage.html" class="btns">Proceed</a>
+    </div>
+    <div class="wishlist-item">
+      <img src="https://images.meesho.com/images/products/7755574/cb7e5_400.webp" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>$26.99</p>
+      <button class="remove-button">Remove</button>
+      <a href="orderpage.html" class="btns">Proceed</a>
+    </div>
+    <div class="wishlist-item">
+      <img src="https://images.bewakoof.com/uploads/grid/app/types-of-shirts-for-men-bewakoof-blog-5-1610963789.jpg" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>$39.99</p>
+      <button class="remove-button">Remove</button>
+      <a href="orderpage.html" class="btns">Proceed</a>
+    </div>
+  </div>
+</body>
+</html>

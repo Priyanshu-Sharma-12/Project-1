@@ -1,0 +1,162 @@
+/* Reset some default styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  
+  
+  .header{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    z-index: 100000;
+    background: rgb(1, 1, 12);
+    color: white;
+    display: flex;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+justify-content: space-between;    
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Great Vibes', cursive;}
+
+  .header a{
+    color: white;
+  }
+
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: disc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+color: white;  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+    
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .banner h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    
+  }
+  
+  .products {
+    padding: 40px 0;
+  }
+  
+  .products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .cart {
+    display: flex;
+  }
+  
+  .content {
+    flex: 2;
+  }
+  .right-image {
+    float: right;
+    max-width: 300px;
+    margin-left: 0px;
+    height: 5px;
+  }
+ h1{
+color: rgb(245, 245, 245);
+border-radius: 2pc;
+font-family: 'Pacifico', cursive;
+ }
+ .hero {
+  background-image: url('images/a.avif');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}

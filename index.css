@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(197, 198, 198);
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(5, 4, 86);
+    size: 100px;
+
+  
+  }
+  h4 {
+    text-align: center;
+    color: red;
+  }
+  .forgot {
+    text-align: center;
+      }
+  
+  #loginForm {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  #loginForm input[type="text"],
+  #loginForm input[type="password"] {
+    display: block;
+    width: 120%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-align: right;
+  }
+  
+  #loginForm button {
+    display: block;
+    width: 90%;
+    padding: 11px;
+    color: #f8fafa;
+    background-color: #004867;
+  }
+  
+  #shop {
+    margin-top: 50px;
+  }
+  
+  #shop ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #shop li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1adc3a;
+    background-color: #f9f9f9;
+  }
+  
